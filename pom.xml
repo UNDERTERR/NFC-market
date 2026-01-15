@@ -3,15 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xiaojie</groupId>
-    <artifactId>nfc-market</artifactId>
+    <artifactId>nft-market</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nfc-market</name>
+    <name>nft-market</name>
     <description>聚合工程</description>
     <packaging>pom</packaging>
 
     <modules>
         <module>market-product</module>
         <module>market-common</module>
+        <module>market-member</module>
+        <module>market-order</module>
+        <module>market-coupon</module>
+        <module>market-ware</module>
+        <module>market-search</module>
+        <module>market-cart</module>
+        <module>market-auth-server</module>
+        <module>market-gateway</module>
+        <module>market-third-party</module>
     </modules>
 
 </project>

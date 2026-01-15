@@ -2,13 +2,37 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="market-common" />
+        <module name="market-order" />
+        <module name="market-gateway" />
+        <module name="market-search" />
+        <module name="market-ware" />
+        <module name="market-cart" />
+        <module name="market-member" />
+        <module name="market-coupon" />
+        <module name="market-third-party" />
+        <module name="market-auth-server" />
         <module name="market-product" />
+        <module name="market-common" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="market-auth-server" options="-parameters" />
+      <module name="market-cart" options="-parameters" />
+      <module name="market-coupon" options="-parameters" />
+      <module name="market-gateway" options="-parameters" />
+      <module name="market-member" options="-parameters" />
+      <module name="market-order" options="-parameters" />
+      <module name="market-product" options="-parameters" />
+      <module name="market-search" options="-parameters" />
+      <module name="market-third-party" options="-parameters" />
+      <module name="market-ware" options="-parameters" />
+    </option>
   </component>
 </project>
